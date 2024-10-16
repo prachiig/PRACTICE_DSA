@@ -22,9 +22,12 @@ public class practice1 {
         }
     }
 
+    // TC - O(N)
+    // SC - 0(N) - stack space
     public static void traverseLL_recurcise(Node head){
         Node ptr = head;
         if(ptr == null){
+            System.out.println("empty list");
             return;
         }
         else{
